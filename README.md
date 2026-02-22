@@ -98,3 +98,66 @@
     
         #FinanceToolkit - Some ratios may not be available for the all stocks.
 
+
+
+# Usage:
+
+## Example Run
+
+```bash
+$ python project.py
+=====================================================
+Welcome! to Stock Seener
+Screener for Indian Stock Market
+Choose One Option to get started
+Option 1: Stock Overview
+Option 2: Stock Fundamentals
+Option 3: Stock Returns
+Option 4: Stock Analysis
+=====================================================
+
+ENTER: 4
+=====================================================
+Enter stock quote to get current price of stock:
+=====================================================
+
+ENTER: tcs
+
+=====================================================
+Choose Stock Exchange:
+TYPE 1 FOR NSE
+TYPE 2 FOR BSE
+=====================================================
+
+ENTER: 1
+=====================================================
+Analysis of TCS.NS by FinanceToolKit
+=====================================================
+
+Obtaining financial statements: 100%|████████████████████████████████████████████████████████████████████████████████| 3/3 [00:04<00:00,  1.64s/it]
+Obtaining historical data: 100%|█████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:00<00:00,  9.72it/s]
+=====================================================
+
+If ROE is consistently rising and debt is stable or falling → positive signal.
+If earnings are shrinking or debt is rising → caution.
+=====================================================
+
+ROE of TCS.NS
+
+        2021   2022   2023   2024   2025
+TCS.NS   NaN 0.8532 0.4656 0.503 0.519
+=====================================================
+
+Debt to Equity of TCS.NS
+
+        2021  2022   2023   2024   2025
+TCS.NS   NaN 0.087 0.0843 0.0878 0.0981
+
+=====================================================
+
+ROE Trend ➨➤ ROE is stable
+Debt_to_Equity Trend ➨➤ Debt_to_Equity is stable
+=====================================================
+
+Analysis Rating ➨➤ 2.0 - Buy
+=====================================================
