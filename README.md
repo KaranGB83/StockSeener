@@ -100,20 +100,117 @@
 
 
 
-# Usage:
+# Usage
 
-## Example Run
+## Example Runs
+
+### 1. Stock Overview (JIOFIN.NS)
 
 ```bash
 $ python project.py
 =====================================================
 Welcome! to Stock Seener
-Screener for Indian Stock Market
-Choose One Option to get started
-Option 1: Stock Overview
-Option 2: Stock Fundamentals
-Option 3: Stock Returns
-Option 4: Stock Analysis
+=====================================================
+
+ENTER: 1
+=====================================================
+Enter stock quote to get current price of stock:
+=====================================================
+
+ENTER: jiofin
+
+=====================================================
+Choose Stock Exchange:
+TYPE 1 FOR NSE
+TYPE 2 FOR BSE
+=====================================================
+
+ENTER: 1
+=====================================================
+Overview of JIOFIN.NS
+=====================================================
+
+NSE SYMBOL ➨➤ JIOFIN
+Full Name of Company ➨➤ Jio Financial Services Limited
+Current Price ➨➤ 258.6 INR
+1D Returns ➨➤ 0.0 INR (0.0%)
+=====================================================
+
+
+
+###  2. Stock Fundamentals (IRFC.BO)
+$ python project.py
+=====================================================
+Welcome! to Stock Seener
+=====================================================
+
+ENTER: 2
+=====================================================
+Enter stock quote to get current price of stock:
+=====================================================
+
+ENTER: irfc
+
+=====================================================
+Choose Stock Exchange:
+TYPE 1 FOR NSE
+TYPE 2 FOR BSE
+=====================================================
+
+ENTER: 2
+=====================================================
+Fundamentals of IRFC.BO
+=====================================================
+
+Company Name ➨➤ Indian Railway Finance Corpora
+ROE ➨➤ 0.12895
+PE_ratio_TTM ➨➤ 20.88
+EPS_TTM ➨➤ 5.36
+PB_ratio ➨➤ 2.58
+Dividend ➨➤ 2.29 %
+Book_Value ➨➤ 43.36 Rs.
+Face_val ➨➤ None
+Debt_to_equity ➨➤ 744.593 Rs.
+Market Cap ➨➤ 1462365847552 Rs.
+=====================================================
+
+### 3. Stock Returns (HDFCBANK.BO)
+$ python project.py
+=====================================================
+Welcome! to Stock Seener
+=====================================================
+
+ENTER: 3
+=====================================================
+Enter stock quote to get current price of stock:
+=====================================================
+
+ENTER: hdfcbank
+
+=====================================================
+Choose Stock Exchange:
+TYPE 1 FOR NSE
+TYPE 2 FOR BSE
+=====================================================
+
+ENTER: 2
+=====================================================
+Returns of HDFCBANK.BO
+=====================================================
+
+5 Year Returns ➨➤ 33.02 %
+1 Year Returns ➨➤ 11.81 %
+6 Month Returns ➨➤ -7.16 %
+3 Month Returns ➨➤ -8.72 %
+1 Month Returns ➨➤ -0.47 %
+1 Week Returns ➨➤ -6.73 %
+1 Day Returns ➨➤ 0.00 %
+=====================================================
+
+### 4. Stock Analisys (TCS.NS)
+$ python project.py
+=====================================================
+Welcome! to Stock Seener
 =====================================================
 
 ENTER: 4
@@ -132,10 +229,6 @@ TYPE 2 FOR BSE
 ENTER: 1
 =====================================================
 Analysis of TCS.NS by FinanceToolKit
-=====================================================
-
-Obtaining financial statements: 100%|████████████████████████████████████████████████████████████████████████████████| 3/3 [00:04<00:00,  1.64s/it]
-Obtaining historical data: 100%|█████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:00<00:00,  9.72it/s]
 =====================================================
 
 If ROE is consistently rising and debt is stable or falling → positive signal.
