@@ -18,10 +18,6 @@ def test_validate_stock():
     assert project.validate_stock("503681.NS") == None
     assert project.validate_stock("512026.NS") == None
 
-# def test_get_int():
-#     assert project.get_int(666) == 666
-#     assert project.get_int(999) == 999
-
 #test which cannot fail in future due to API updates
 def test_analize_trend():
     assert project.analize_trend(pd.Series([9,8,7,5,4]), "test") == "test trend is unavailable"
